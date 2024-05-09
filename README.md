@@ -3,11 +3,11 @@ ETL for NFL/Professional Football Data and Analytics
 
 # Blitzanalytics
 Your Playbook to Success through NFL/Professioanl football Data ETL's and Reporting.
-The progrma will extract 5 years of NFL data, transform the data, load the data into a local database, and automatically generate reports.  
+The program will extract 5 years of NFL data, transform the data, load the data into a local database, and automatically generate reports.  
 
 **Program Status**
 <br>
-- [10%] National Football League Data
+- [50%] National Football League Data
 - [0%] National Football League Matchup Reporting
 - [0%] National Football League Team Reporting
 
@@ -21,12 +21,7 @@ The progrma will extract 5 years of NFL data, transform the data, load the data 
   gridironstats.py
 
 **Program Arguments***
-  python script_name.py [-cfb] [-nfl] [-p] [-r REPORT_WEEK] [-y REPORT_YEAR] [-t] [-d] [-s]
-  
-  -r REPORT_WEEK, --report_week REPORT_WEEK: Specify a week for reporting. The default week is the current week.
-  -y REPORT_YEAR, --report_year REPORT_YEAR: Specify a year for reporting. The default year is the current year.
-  -t, --season_type: Specify 'regular' for Regular Season or 'postseason' for PostSeason.
-  -d, --delete_tables: Delete all DB tables if the database is consuming excessive space. Run the program with the -p flag afterward to re-populate the DB.
+  python gridironstats.py [-s]
   -s, --skip_extract: Skip the data extraction process if new data isn't required.
 
 
