@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 #Local files
-gridironstats.py
+gridironstats.db
 .idea
